@@ -106,16 +106,3 @@ pytest -q
 - 当前版本使用内存存储，适合 Demo 和申请材料演示。
 - 若要用于生产，可替换为数据库存储、消息队列和任务调度器（如 Celery）。
 
-## 7. 申请提交清单（第04/05项）
-
-- 文案文件：`APPLICATION_TEXT.md`（含第 04 项精简版与第 05 项上传模板）
-- 建议上传截图文件名：
-  - `01_api_docs.png`
-  - `02_create_and_run.png`
-  - `03_run_result.png`
-  - `04_server_start.png`
-  - `05_test_pass.png`
-- GitHub 仓库建议包含：
-  - 本项目全部源码
-  - 可复现的启动与测试命令
-  - 示例 API 请求与响应
